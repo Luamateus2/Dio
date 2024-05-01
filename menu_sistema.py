@@ -1,7 +1,5 @@
-from menu import depositar,extrato
+from sistema import depositar,extrato,saque
 
-
-saldo = float(input("Digite seu saldo inicial: "))
 def menu():
     global saldo
     while True:
@@ -13,8 +11,10 @@ def menu():
                 depositar()
             case 2: 
                 extrato()
+            case 3:
+                saque()
             case _: 
                 print('Comando Inválido')
 
 
-menu()              
+menu()                
