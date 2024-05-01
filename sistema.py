@@ -1,6 +1,7 @@
 depositados = []
 retiradas = []
 dia = 0
+saldo = float(input('Digite seu saldo inicial: '))
 
 def depositar():
     global saldo
@@ -20,7 +21,7 @@ def extrato():
     print(f'Saldo: R${saldo}')
 
 def saque():
-    global saldo, dia
+    global dia,saldo
     if dia < 3:  
         saque = float(input('Digite o valor a ser sacado: '))
         if saque <= 500:
@@ -33,5 +34,4 @@ def saque():
                 print('Saque realizado com sucesso')
         else:
             print('Não pode retirar valores maiores que R$500')
-
 
