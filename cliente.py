@@ -1,5 +1,5 @@
-usuarios ={}
-contas ={}
+usuarios = {}
+contas = {}
 prox_numero_conta = 1
 
 def cadastrar_usuario():
@@ -10,9 +10,9 @@ def cadastrar_usuario():
     if cpf in usuarios:
         print('CPF já cadastrado. Não é permitido cadastrar novamente.')
         return
-    usuarios[cpf] = {'nome': nome, 'dt_nascimento': dt_nascimento, 'cpf': cpf, 'endereco': endereco}
+    # Inicialize a lista de contas vazia para o novo usuário
+    usuarios[cpf] = {'nome': nome, 'dt_nascimento': dt_nascimento, 'cpf': cpf, 'endereco': endereco, 'contas': []}
     print('Usuário cadastrado com sucesso.')
-
 
 def cadastrar_conta(): 
     agencia = '0001'  
@@ -23,15 +23,3 @@ def cadastrar_conta():
         return
     usuarios[cpf]['contas'].append({'agencia': agencia, 'numero_conta': numero_conta})
     print('Conta cadastrada com sucesso.')
-
- 
-def menu_conta():   
-    print('#####################SEJA BEM VINDO AO SISTEMA DE CADASTRO DE CLIENTE E CONTA #######################################')
-    while True:
-        opcao = int(input("0-PARA SAIR \n 1-PARA CADASTRAR UM USUÁRIOS \n 2-PARA CRIAR UMA CONTA"))
-        match opcao:
-            case 0: return False
-            case 1: cadastrar_usuario()
-            case 2: cadastrar_conta()
-            case _: print('Comando Inválido')
-        
