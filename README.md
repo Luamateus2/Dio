@@ -68,12 +68,12 @@ Este arquivo contém a função `menu()`, que exibe um menu para o usuário esco
 1. Execute `menu_sistema.py`.
 2. Escolha a opção 1 para depositar, 2 para consultar o extrato ou 3 para sacar.
 
-## Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorar o projeto.
 
 ## Licença
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 **Nota:** Este projeto foi desenvolvido como parte de um curso na plataforma DIO e tem fins educacionais.
 
-## 
+✍️ Autor
+
+Feito por Luana Karoline. Para contato, envie um e-mail para luanakarolineliramateus2021@gmail.com.
