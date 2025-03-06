@@ -35,11 +35,11 @@ Este arquivo contém a função `menu()`, que exibe um menu para o usuário esco
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/sistema-bancario-simples.git
+   git clone [https://github.com/seu-usuario/sistema-bancario-simples.git](https://github.com/Luamateus2/Projeto-Dio.git)
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd sistema-bancario-simples
+   cd projeto-dio
    ```
 3. Execute o menu de contas:
    ```bash
@@ -76,4 +76,4 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para ma
 
 **Nota:** Este projeto foi desenvolvido como parte de um curso na plataforma DIO e tem fins educacionais.
 
-
+## 
